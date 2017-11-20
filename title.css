@@ -1,0 +1,100 @@
+
+ body {
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: arial, sans-serif;
+ }
+
+.header h1 {
+	font-family: Bungee Outline, arial, sans-serif;
+	font-size: 4em;
+	color: red;
+	text-align: center;
+}
+
+.btns-container {
+	border: 2px solid black;
+	width: 60%;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.btns-container li {
+	display: inline-block;
+	border: 2px solid black;
+	width: 9%;
+	padding: 1%;
+	margin: 12px 3.5%;
+	font-size: 1em;
+	text-align: center;
+}
+
+.btns-container a {
+	text-decoration: none;
+}
+
+p {
+	font-family: Titillium Web, helvetica, arial;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+.letter {
+	position: relative;
+}
+
+#one {
+	animation: slide 3s ease;					
+}
+#two {
+	animation: slide 2.9s ease;					
+}
+#three {
+	animation: slide 2.8s ease;					
+}
+#four {
+	animation: slide 2.7s ease;					
+}
+#five {
+	animation: slide 2.6s ease;					
+}
+#six {
+	animation: slide 2.5s ease;					
+}
+#seven {
+	animation: slide 2.4s ease;					
+}
+#eight {
+	animation: slide 2.3s ease;					
+}
+#nine {
+	animation: slide 2.2s ease;					
+}
+#ten {
+	animation: slide 2.1s ease;					
+}
+#eleven {
+	animation: slide 2s ease;					
+}
+#twelve {
+	animation: slide 1.9s ease;					
+}
+#thirteen {
+	animation: slide 1.6s ease;					
+}
+
+/*KEYFRAMES*/
+
+@keyframes slide {
+	0% {left: -1250px; top: 0;}
+	100% {left: 0; top: 0;}
+}
+
+@keyframes bounce {
+	0% {left: -450px; top: 0;}
+	50% {left: -200px; top: -105px;}
+	100% {left: 0; top: 0;}
+}
+	
+	
+
